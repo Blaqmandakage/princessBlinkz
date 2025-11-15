@@ -200,3 +200,6 @@
   display: flex;
   justify-content: space-between;
 }
+.product h1 {
+  font-size: 1rem;
+}
