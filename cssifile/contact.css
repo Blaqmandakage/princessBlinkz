@@ -1,0 +1,48 @@
+.contact-container {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  background-color: black;
+  color: wheat;
+}
+form {
+  max-width: 400px;
+  margin: 16px auto;
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  text-align: left;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+input {
+  padding: 1rem;
+  outline: none;
+  background-color: pink;
+  border: none;
+}
+label {
+  padding: 0.2rem;
+  font-weight: 700;
+}
+textarea {
+  padding: 0.5rem;
+  background-color: white;
+  margin-bottom: 0.5rem;
+  outline: none;
+  border: none;
+}
+button {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: pink;
+  border: none;
+}
