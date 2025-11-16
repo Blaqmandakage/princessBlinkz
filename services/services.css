@@ -76,6 +76,10 @@ select {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+.show-offer .offers button a {
+  text-decoration: none;
+  color: white;
+}
 .show-offer .offers p {
   padding: 1rem 0;
 }

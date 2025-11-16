@@ -1,0 +1,85 @@
+.grand-total {
+  background-image: url("../image/logo.png");
+  background-position: center;
+  height: 100vh;
+}
+.total-schedule-date {
+  background-color: #aaaaaacc;
+  font-size: 1.2rem;
+  padding: 1rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  height: 100vh;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.back ul {
+  padding: 1rem 0.2rem;
+}
+.back ul li {
+  list-style: none;
+  font-size: 1.5rem;
+}
+.back ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.466);
+  font-weight: 900;
+}
+.schedule-container {
+  text-align: center;
+
+  max-width: 800px;
+  margin: 0.5rem auto;
+  overflow: hidden;
+}
+.schedule-container h1 {
+  font-style: italic;
+  font-family: "Nunito", monospace;
+  font-size: 3rem;
+  padding: 1rem;
+  color: #fffdfd;
+  transition: scale 0.3s ease;
+}
+.schedule-container p {
+  font-style: italic;
+  font-weight: 500;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  animation: schedule 5s linear infinite;
+}
+@keyframes schedule {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.schedule-container button {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #7a3e45;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.schedule-container button a {
+  text-decoration: none;
+  color: white;
+}
+label,
+input {
+  display: block;
+  margin: 0.5rem auto;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  font-family: "roboto", serif;
+  font-weight: 600;
+}
