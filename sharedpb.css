@@ -10,12 +10,15 @@
 }
 .total {
   padding: 10px 2%;
+  z-index: -1;
 }
 
 .flex-toggle {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* position: fixed;
+  top: 0; */
 }
 .nav-toggle {
   width: 50px;
@@ -145,7 +148,7 @@
 .backDrop {
   height: 100vh;
   width: 100%;
-  background-color: #aaaaaa60;
+  background-color: #0000007c;
   position: fixed;
   top: 0;
   left: 0;
@@ -165,25 +168,32 @@
 } */
 .hide-backdrop {
   height: 100vh;
-  background-color: #aaa;
+  background-color: pink;
+
   position: fixed;
   top: 4.7rem;
   left: 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-left: 1rem;
+  padding-right: 6rem;
   padding-bottom: 4rem;
   transition: 0.5s linear ease-in-out;
   z-index: 1;
   display: none;
 }
+
+.hide-backdrop .hide-links {
+  list-style: none;
+}
 .hide-backdrop .hide-links a {
   text-decoration: none;
   color: black;
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
   transition: all 0.3s ease;
 }
 .hide-backdrop .hide-links a:hover {
   text-decoration: underline;
   cursor: pointer;
+  transition: all 0.5s ease;
 }

@@ -10,6 +10,11 @@
   margin-top: 0.5rem;
   overflow: hidden;
 }
+.background-pb h1 {
+  font-family: "Roboto", monospace;
+
+  animation: facial 5s linear infinite;
+}
 
 @media (min-width: 40rem) {
   .pb-logo {
@@ -93,6 +98,7 @@
   .background-pb h1 {
     font-family: "Roboto", monospace;
     text-align: center;
+    animation: facial 5s infinite;
   }
   .background-pb p {
     font-family: "Nunito", monospace;
@@ -135,6 +141,8 @@
   /* margin-top: 1rem; */
   background-color: #f8e1e4;
   height: 300px;
+  animation: facial 5s infinite;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
   border-radius: 10px;
 }
@@ -161,6 +169,18 @@
   border-radius: 5px;
   transition: all 0.3s ease;
   cursor: pointer;
+}
+@keyframes facial {
+  0% {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 .facial-image {
   text-align: center;

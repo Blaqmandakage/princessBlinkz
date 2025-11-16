@@ -1,9 +1,9 @@
 .ourservice-container {
   text-align: center;
 
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
   max-width: 800px;
-  margin: 16px auto;
+  margin: 0.5rem auto;
   overflow: hidden;
 }
 .our-service {
@@ -12,7 +12,21 @@
   color: white;
   font-style: italic;
   padding: 1rem;
-  background: linear-gradient(green, #df7a86);
+  background: linear-gradient(#df7a86);
+}
+.our-service h1 {
+  animation: scale 0.7s infinite;
+}
+@keyframes scale {
+  0% {
+    transform: translate(45deg) scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 .our-service h1::first-letter {
   font-size: 5rem;
@@ -33,4 +47,35 @@ select {
   /* color: white; */
   margin-top: 1rem;
   width: 100%;
+}
+.show-offer {
+  margin-top: 2rem;
+  text-align: left;
+  transition: 0.5s linear ease-in;
+}
+.show-offer .offers {
+  border: 2px solid #0000002c;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 2rem 0;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.show-offer .offers button {
+  margin: 6px auto;
+
+  width: 100%;
+  padding: 8px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Nunito", monospace;
+  background-color: #9e5b65;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.show-offer .offers p {
+  padding: 1rem 0;
 }
