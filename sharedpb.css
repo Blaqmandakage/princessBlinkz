@@ -197,3 +197,10 @@
   cursor: pointer;
   transition: all 0.5s ease;
 }
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(255, 94, 120);
+  color: white;
+  font-family: "Roboto", sans-serif;
+}

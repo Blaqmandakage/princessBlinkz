@@ -8,6 +8,18 @@
   padding: 2rem 0;
   animation: contact 5s linear infinite;
 }
+.contact-container .back {
+  text-align: left;
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+.contact-container .back li {
+  list-style: none;
+}
+.contact-container .back li a {
+  text-decoration: none;
+  color: pink;
+}
 @keyframes contact {
   0% {
     color: #f7f0e4;
