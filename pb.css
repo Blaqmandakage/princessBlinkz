@@ -212,6 +212,7 @@
 }
 
 .special {
+  font-family: "Pacifico", monospace;
   background-color: black;
   color: white;
   text-align: center;
@@ -239,7 +240,7 @@
 .social-icons {
   margin-top: 1rem;
   position: fixed;
-  top: 20rem;
+  top: 15rem;
   left: 0.5rem;
 }
 .social-icons ul li {
@@ -253,7 +254,7 @@
   margin-right: 1rem;
 }
 .fab {
-  font-size: 3rem;
+  font-size: 2.5rem;
   height: 100px;
-  color: #e03c50;
+  color: #f3112c;
 }
