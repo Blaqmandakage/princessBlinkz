@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
 .background-pb {
   background-image: url("image/back-4.jpg");
   background-size: contain;
@@ -15,8 +17,10 @@
   overflow: hidden; */
 }
 .background-pb h1 {
+  font-family: "Pacifico", sans-serif;
+  font-weight: 900;
+  font-style: italic;
   padding-top: 5rem;
-  font-family: "Roboto", monospace;
 
   animation: facial 5s linear infinite;
 }
@@ -101,8 +105,11 @@
     background-repeat: repeat-x;
   }
   .background-pb h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: italic;
     margin-top: 5rem;
-    font-family: "Roboto", monospace;
+
     text-align: center;
     animation: facial 5s infinite;
   }

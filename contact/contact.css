@@ -1,11 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 .contact-container {
   width: 100%;
   text-align: center;
   font-size: 1.3rem;
-
+  font-family: "Pacifico", monospace;
   background-color: black;
   color: wheat;
-  padding: 2rem 0;
+  padding: 1rem 0.5rem;
   animation: contact 5s linear infinite;
 }
 .contact-container .back {
